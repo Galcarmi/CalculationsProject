@@ -1,0 +1,9 @@
+@mixin border-general {
+  box-shadow: 0px 4px 8px 0px rgba(black, 0.5);
+  background-color: rgba(grey, 0.4);
+}
+
+@mixin border-lighter-border {
+  box-shadow: 0px 2px 4px 0px rgba(black, 0.5);
+  background-color: rgba(grey, 0.4);
+}

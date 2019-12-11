@@ -1,0 +1,22 @@
+@import '../scss/mixins.scss';
+
+.form-component {
+  display: flex;
+  justify-content: center;
+
+  .calculation-form {
+    margin-top: 10rem;
+    border: 2px solid rgba(black, 0.5);
+    padding: 50px;
+    width: 50%;
+    box-sizing: initial;
+    @include border-general;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: rgba(28, 18, 170, 0.8);
+      font-size: 2rem;
+    }
+  }
+}
